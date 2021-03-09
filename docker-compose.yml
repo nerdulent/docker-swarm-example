@@ -2,6 +2,6 @@ version: "3.0"
 
 services:
   hello-world:
-        images: ${IMAGE_NAME}
+        image: ${IMAGE_NAME}
         ports:
                 - 8080:8080
